@@ -30,7 +30,7 @@ function submitData(name, email) {
         responseContainer.innerHTML = '';
 
         const successMessage = document.createElement("p");
-        successMessage.textContent = `User successfully added with ID: ${userId}`;
+        successMessage.textContent = `User successfully added with ID: ${userId} :Refresh the page to to see the addition`;
         responseContainer.appendChild(successMessage);
         return user;
       })
